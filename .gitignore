@@ -1,0 +1,23 @@
+# Ignore Streamlit cache and data files
+.streamlit/
+*.csv
+*.json
+*.pkl
+*.h5
+*.html
+
+# Ignore Python virtual environment files
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.ipynb_checkpoints/
+
+# Ignore system files and logs
+.DS_Store
+Thumbs.db
+*.log
