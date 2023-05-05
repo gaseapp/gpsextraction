@@ -12,8 +12,7 @@ def main():
     choice = st.sidebar.selectbox("Select a page", menu)
 
     if choice == "Home":
-        st.write("<p style='text-align: center; font-style: italic;'>"
-                 ".</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; font-style: italic;'>NO EMPTY VALUES</p>", unsafe_allow_html=True)
         st.write("Please upload an image containing the rice field:")
 
         option = st.radio("", ("Upload", "Camera"))
